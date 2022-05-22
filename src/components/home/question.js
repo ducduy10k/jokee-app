@@ -4,7 +4,6 @@ import { useCookies } from 'react-cookie';
 
 const Question = (props) => {
   const [cookies, setCookie, removeCookie] = useCookies();
-  console.log(cookies)
   const questions = useRef([
     {
       text: `A child asked his father, "How were people born?" So his father said, "Adam and Eve made babies, then their babies became adults and made babies, and so on."
