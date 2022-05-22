@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+:root{
+  --text-dark: #727272;
+  --body-color: #ffffff;
+  --text-light:#ffffff;
+  --small-font-size: 0.87rem;
+}
+
 .header{
   height: 65px;
   display: flex;
@@ -45,3 +52,19 @@
   aspect-ratio: 1/1;
   border-radius: 50%;
 }
+
+.caption{
+  background-color: #29b363;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--text-light);
+  line-height: 2.5rem;
+}
+
+.caption span{
+  font-size: var(--small-font-size);
+}
+
