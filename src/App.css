@@ -5,6 +5,7 @@
 
 body {
   font-size: var(--normal-font-size);
+  color: var(--text-dark);
 }
 
 :root {
