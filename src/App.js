@@ -1,10 +1,13 @@
-import './App.css';
-import Main from './components/layout/main';
+import "./App.css";
+import Main from "./components/layout/main";
+import { CookiesProvider } from "react-cookie";
 function App() {
   return (
-    <div className="App">
-      <Main/>
-    </div>
+    <CookiesProvider>
+      <div className="App">
+        <Main />
+      </div>
+    </CookiesProvider>
   );
 }
 

@@ -5,10 +5,10 @@ import Question from './question'
 
 const Home = props => {
   return (
-    <Fragment>
+        <div style={{flexGrow:1}}>
         <Caption/>   
         <Question/>
-    </Fragment>
+    </div>
   )
 }
 

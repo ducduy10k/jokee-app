@@ -1,12 +1,11 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Header from "../common/header";
 import Footer from "../common/footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "../home/home";
-const Main = (props) => {
+const Main = () => {
   return (
-    <>
+    <div className="main">
       <Header />
       <BrowserRouter>
         <Routes>
@@ -14,10 +13,8 @@ const Main = (props) => {
         </Routes>
       </BrowserRouter>
       <Footer />
-    </>
+    </div>
   );
 };
-
-Main.propTypes = {};
 
 export default Main;
